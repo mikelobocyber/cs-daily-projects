@@ -1,32 +1,108 @@
 # =========================
-# C++ Build Files
-# =========================
-*.out
-*.exe
-*.o
-*.obj
-*.a
-*.lib
-
-# =========================
-# Build Directories
-# =========================
-build/
-bin/
-
-# =========================
-# OS Files
+# 🔹 OS FILES
 # =========================
 .DS_Store
 Thumbs.db
 
 # =========================
-# IDE / Editor Files
+# 🔹 EDITORS / IDEs
 # =========================
 .vscode/
 .idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # =========================
-# Misc
+# 🔹 GENERAL BUILD FILES
+# =========================
+build/
+dist/
+out/
+bin/
+target/
+
+# =========================
+# 🔹 C++ / C
+# =========================
+*.o
+*.obj
+*.out
+*.exe
+*.app
+*.dSYM/
+*.stackdump
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+
+# =========================
+# 🔹 JAVA
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+
+# =========================
+# 🔹 PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Testing / coverage
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# 🔹 LOGS & TEMP FILES
 # =========================
 *.log
+*.tmp
+*.swp
+
+# =========================
+# 🔹 ENV / SECRETS
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# 🔹 ARCHIVES
+# =========================
+*.zip
+*.tar
+*.gz
+
+# =========================
+# 🔹 OPTIONAL (UNCOMMENT IF NEEDED)
+# =========================
+# node_modules/
+# *.sqlite3
+# *.db
